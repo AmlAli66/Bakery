@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+p,span{
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+}
+/* ////////////////////////////////////////////// */
+/* Start Header Section */
+.header{
+    height: 105vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+}
+.header-content{
+    text-align: center;
+    margin-top: 180px;
+}
+.header-content h1{
+    font-size: 76px;
+    margin: 15px 0;
+}
+.header-p1{
+    font-size: 22px;
+}
+.header-p2{
+    font-size: 24px;
+    width: 690px;
+    margin: auto;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+.header-btn1 ,.header-btn2{
+    padding: 19px 22px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom:60px;
+}
+.header-btn1{
+    border: 2px solid #8E7754;
+    background-color: #8E7754;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.header-btn2{
+    border: 2px solid white;
+    background-color: transparent;
+    margin-left: 5px;
+}
+.bottom-icon{
+    width: 33px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin: auto;
+}
+.circle{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.79);
+    margin: auto;
+    margin-top: 6px;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+}
+.nav-img{
+    height: 48px;
+    float: left;
+    margin-top:22px;
+    margin-left: 150px;
+}
+.nav-img img{
+    height: 100%;
+}
+.nav-pages{
+    float: right;
+    margin-right: 150px;
+    /* margin-top:35px; */
+}
+.nav-pages ul li{
+    list-style-type: none;
+    float: left;
+    padding: 35px 15px 0px 15px;
+    font-size: 18px;
+}
+.diff-li{
+    border-top: 3px solid #e6b873;
+}
+/* End Header Section */
+/* /////////////////////////////////////////////// */
+/* ====> Start Who we are Section <====  */
+.who-we-are{
+    width: 80%;
+    margin: auto;
+    padding: 90px 0;
+}
+.who-img{
+    width: 45%;
+    float: left;
+    vertical-align: middle;
+}
+.who-img img{
+    width: 100%;
+}
+.who-content{
+    float: left;
+    width: 45%;
+    margin-left: 80px;
+    vertical-align: middle;
+}
+.who-we-are h2{
+    margin: 30px 0 30px 0;
+    font-size: 32px;
+}
+.who-we-are p,span{
+    font-size: 17px;
+
+}
+.who-content p{
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: rgb(104, 104, 104);
+}
+.who-icon i{
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 50%;
+    padding: 11px;
+    font-size:20px;
+    color: rgb(142, 119, 84);
+    margin-right: 7px;
+}
+.who-icon{
+    margin: 20px 0;
+}
+.who-icon span{
+    color: rgb(104, 104, 104);
+}
+/* ====> End Who we are Section <====  */
+/* ////////////////////////////////////////////////// */
+/* ====> Start Our location Section <====  */
+.our-location{
+    background-color: #F8F8F8;
+    height: 95vh;
+}
+.location-container{
+    width: 80%;
+    margin: auto;
+}
+.location-content{
+    float: left;
+    width: 46%;
+    margin-top: 190px;
+}
+.location-content h2{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.location-content p{
+    color: rgb(104, 104, 104);
+    font-size: 17px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.location-img{
+    float: right;
+    width: 47%;
+    margin-top: 95px;
+}
+.location-img img{
+    height: 100%;
+    width: 100%;
+}
+/* ====> End Our location Section <====  */
+/* ////////////////////////////////////////////////// */
+.baking-div{
+    float: left;
+    width: 33.33%;
+    margin: 40px 0px;
+    padding: 20px;
+}
+.baking-div img {
+    width: 100%;
+}
+.baking-container{
+    width: 83%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center
+}
+.our-baking{
+    background-color: #ffffff;
+}
+.baking-div h4{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.our-baking h2{
+    font-size: 30px;
+    margin: 32px;
+}
+.our-baking p{
+    color: rgb(145, 143, 143);
+    line-height: 30px;
+}
+/* ///////////////////////////////////////// */
+/* Start Contact Information Section */
+.contact-info{
+    height: 100vh;
+    background-color: #F8F8F8;
+    padding-top:100px;
+}
+.info-container{
+    width: 80%;
+    margin: auto;
+}
+.info-content{
+    float: left;
+    width: 45%;
+}
+.info-map{
+    float: right;
+    width: 45%;
+}
+.info-content h2{
+    font-size: 32px;
+    color: #303030;
+}
+.info-content p,.info-content span{
+    font-size: 17px;
+    color: RGB(104, 104, 104);
+    margin: 10px 0;
+    line-height: 35px;
+}
+.info-content ul li{
+    list-style-type: none;
+    margin: 30px 0 ;
+}
+.info-content i{
+    color: white;
+    background-color: #8E7754;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 17px;
+    margin-right: 12px;
+}
+/* End Contact Information Section */
+/* ////////////////////////////////////////////// */
+/* ^====> Start Blog Section <==== */
+.blog-sec{
+    background-color: #403D38;
+    height: 65vh;
+    padding-top: 70px;
+}
+.blog-container{
+    width: 85%;
+    margin: auto;
+    background-image: url(../images/contact-details-map.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.blog-div{
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+}
+.blog-about p{
+    margin-bottom: 25px;
+}
+.blog-container h4{
+    font-size:18px ;
+    color: white;
+    margin-bottom: 20px;
+}
+.blog-container p,.blog-container span{
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+    line-height: 26px;
+}
+.blog-container ul li{
+    list-style-type: none;
+    margin: 10px 0 ;
+    padding-bottom: 10px;
+}
+.blog-container i{
+    color: white;
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+    margin-right: 12px;
+}
+.last-li{
+    border: none !important;
+}
+.blog-opening-hours li,.blog-special li,.blog-contact li{
+    border-bottom: 1px solid rgba(255, 255, 255,0.05);
+}
+.blog-contact i{
+    font-size: 17px;
+    color: #969696;
+}
+/* ====> Start Blog Section <====  */
+/* ///////////////////////////////////////// */
+/* ====> Start footer Section <====  */
+.footer{
+    text-align: center;
+    background-color: #353330;
+    height: 330px;
+    color:#737777;
+}
+.footer-content i{
+    color: #9f9f9f;
+    border-radius: 50%;
+    background-color: #a89d8b27;
+    padding: 10px;
+    margin: 0 2.5px;
+    font-size: 18px;
+    width: 40px;
+}
+.footer-content img{
+    margin-top:65px;
+    margin-bottom: 25px;
+}
+.footer-content p{
+    margin-bottom:30px;
+    font-size: 15px;
+}
+/* ====> End footer Section <====  */
